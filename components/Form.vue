@@ -18,6 +18,7 @@
 </template>
 
 <script setup lang="ts">
+	//@ts-ignore
 	import { useToast } from "vue-toastification";
 
 	const emit = defineEmits<{

@@ -51,6 +51,7 @@
 
 <script setup lang="ts">
 	import { Types } from "mongoose";
+    //@ts-ignore
 	import { useToast } from "vue-toastification";
 	import { ITodo } from "~/types";
 
